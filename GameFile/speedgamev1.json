@@ -1,0 +1,145 @@
+{
+  "name": "Speed Basketball TCG",
+  "menuBackgroundImage": "https://i.imghippo.com/files/QveW7833bBE.png",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://i.imghippo.com/files/eAqB3557jeo.jpg",
+      "https://i.imghippo.com/files/FUzF6975ZN.png",
+      "https://i.imghippo.com/files/JERm9592hyY.jpg",
+      "https://i.imghippo.com/files/Swvf1036r.png",
+      "https://i.imghippo.com/files/ryb5857fo.jpg"
+    ],
+    "decksUrl": ""
+  },
+  "customHelp": "Rules and Mechanics: soverein.co/#speedtcgrules",
+  "cardRotation": "90",
+  "cards": {
+    "dataUrl": "",
+    "cardBack": "https://i.imghippo.com/files/FWL6274ip.png"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "name",
+      "type",
+      "position",
+      "team"
+    ],
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Tech Draw: If not enough player cards (less than 5), show hand to prove and expel 1 to draw 1",
+        "startingHandSize": 7,
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": true,
+        "firstPlayerTokenName": "First to Play",
+        "drawPerTurn": "7"
+      },
+      "defaultNotes": "Tip-Off: Both user play first cards and compare positions, higher position (C-PG) wins the tipoff (if tie, compare powers and effects). Tipoff loser plays first on turns 1 & 4, Tipoff winner plays first on turns 2 & 3",
+      "tokens": [
+        {
+          "name": "First to Play",
+          "image": "https://i.imghippo.com/files/zw3122W.jpg",
+          "isUnique": true,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "countersStartingValues": [
+        0,
+        0,
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "PAINT",
+          "MID",
+          "3PT"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "section": "PAINT",
+              "style": false
+            },
+            {
+              "section": "MID",
+              "style": false
+            },
+            {
+              "section": "3PT",
+              "style": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "PAINT": {
+            "title": "PAINT",
+            "isHidden": "yes",
+            "height": "BIG",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "PAINT",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "MID": {
+            "title": "MID",
+            "isHidden": "yes",
+            "height": "BIG",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "3PT": {
+            "title": "3PT",
+            "isHidden": "yes",
+            "height": "BIG",
+            "alignment": "END",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}

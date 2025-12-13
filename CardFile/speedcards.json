@@ -1,0 +1,902 @@
+{
+   "mj": {
+      "id": "mj",
+      "face": {
+         "front": {
+            "name": "MJ",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/WnKW7819spk.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "MJ",
+      "type": "Player",
+      "cost": 0,
+      "power": 12,
+      "position": "SG",
+      "team": "Bulls",
+      "archetype": "Clutch",
+      "signature": "Clutch"
+   },
+   "lebron": {
+      "id": "lebron",
+      "face": {
+         "front": {
+            "name": "LeBron",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/eXN3188KI.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "LeBron",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "SF",
+      "team": "Multi-Team",
+      "archetype": "Afflict",
+      "signature": "Chasedown Block"
+   },
+   "kobe": {
+      "id": "kobe",
+      "face": {
+         "front": {
+            "name": "Kobe",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/IbdT5281NVA.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Kobe",
+      "type": "Player",
+      "cost": 0,
+      "power": 12,
+      "position": "SG",
+      "team": "Lakers",
+      "archetype": "Clutch",
+      "signature": "Clutch"
+   },
+   "kareem": {
+      "id": "kareem",
+      "face": {
+         "front": {
+            "name": "Kareem",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/hRHU3026w.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Kareem",
+      "type": "Player",
+      "cost": 0,
+      "power": 14,
+      "position": "C",
+      "team": "Multi-Team",
+      "archetype": "High Release",
+      "signature": "Skyhook"
+   },
+   "duncan": {
+      "id": "duncan",
+      "face": {
+         "front": {
+            "name": "Duncan",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/HKhH1803PVE.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Duncan",
+      "type": "Player",
+      "cost": 0,
+      "power": 12,
+      "position": "PF",
+      "team": "Spurs",
+      "archetype": "Midrange",
+      "signature": "Bank Shot"
+   },
+   "shaq": {
+      "id": "shaq",
+      "face": {
+         "front": {
+            "name": "Shaq",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/dGS2556uMk.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Shaq",
+      "type": "Player",
+      "cost": 0,
+      "power": 14,
+      "position": "C",
+      "team": "Multi-Team",
+      "archetype": "Paint",
+      "signature": "Paint Beast"
+   },
+   "magic": {
+      "id": "magic",
+      "face": {
+         "front": {
+            "name": "Magic",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/TXm3649vK.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Magic",
+      "type": "Player",
+      "cost": 0,
+      "power": 8,
+      "position": "PG",
+      "team": "Lakers",
+      "archetype": "Playmaking",
+      "signature": "Showtime"
+   },
+   "bird": {
+      "id": "bird",
+      "face": {
+         "front": {
+            "name": "Bird",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/gWKF8220aU.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Bird",
+      "type": "Player",
+      "cost": 0,
+      "power": 12,
+      "position": "SF",
+      "team": "Celtics",
+      "archetype": "Afflict",
+      "signature": "Trash Talk"
+   },
+   "russell": {
+      "id": "russell",
+      "face": {
+         "front": {
+            "name": "Russell",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/EOJ3533adE.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Russell",
+      "type": "Player",
+      "cost": 0,
+      "power": 8,
+      "position": "C",
+      "team": "Celtics",
+      "archetype": "Afflict",
+      "signature": "Rim Protector"
+   },
+   "wilt": {
+      "id": "wilt",
+      "face": {
+         "front": {
+            "name": "Wilt",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/KRP3258AI.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Wilt",
+      "type": "Player",
+      "cost": 0,
+      "power": 14,
+      "position": "C",
+      "team": "Multi-Team",
+      "archetype": "Defense",
+      "signature": "100 Points"
+   },
+   "hakeem": {
+      "id": "hakeem",
+      "face": {
+         "front": {
+            "name": "Hakeem",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/RPm5089uic.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Hakeem",
+      "type": "Player",
+      "cost": 0,
+      "power": 14,
+      "position": "C",
+      "team": "Rockets",
+      "archetype": "Offense",
+      "signature": "Dream Shake"
+   },
+   "steph": {
+      "id": "steph",
+      "face": {
+         "front": {
+            "name": "Steph",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/jJG4379UoQ.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Steph",
+      "type": "Player",
+      "cost": 0,
+      "power": 12,
+      "position": "PG",
+      "team": "Warriors",
+      "archetype": "3PT",
+      "signature": "Splash"
+   },
+   "mjrules": {
+      "id": "mjrules",
+      "face": {
+         "front": {
+            "name": "MJ Rules",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/LC4093sfw.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "MJ Rules",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Discard",
+      "signature": ""
+   },
+   "brokenac": {
+      "id": "brokenac",
+      "face": {
+         "front": {
+            "name": "Broken AC",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/KYWe2708fU.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Broken AC",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Expel",
+      "signature": ""
+   },
+   "pressure": {
+      "id": "pressure",
+      "face": {
+         "front": {
+            "name": "Pressure",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/FzL3469Ew.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Pressure",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Afflict",
+      "signature": ""
+   },
+   "ejection": {
+      "id": "ejection",
+      "face": {
+         "front": {
+            "name": "Force Ejection",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/UFL7927xOo.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Force Ejection",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Expel",
+      "signature": ""
+   },
+   "hackingfoul": {
+      "id": "hackingfoul",
+      "face": {
+         "front": {
+            "name": "Hacking Foul",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/sZpE4490Zp.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Hacking Foul",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Discard",
+      "signature": ""
+   },
+   "intercept": {
+      "id": "intercept",
+      "face": {
+         "front": {
+            "name": "Intercept",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/uLX5897CRc.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Intercept",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Defense",
+      "signature": ""
+   },
+   "focus": {
+      "id": "focus",
+      "face": {
+         "front": {
+            "name": "Focus",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/wgnN5617is.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Focus",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Offense",
+      "signature": ""
+   },
+   "closeout": {
+      "id": "closeout",
+      "face": {
+         "front": {
+            "name": "Closeout",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/Slf9329PW.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Closeout",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Defense",
+      "signature": ""
+   },
+   "kd": {
+      "id": "kd",
+      "face": {
+         "front": {
+            "name": "KD",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/Bqzh2334WQ.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "KD",
+      "type": "Player",
+      "cost": 0,
+      "power": 13,
+      "position": "SF",
+      "team": "Multi-Team",
+      "archetype": "High Release",
+      "signature": "Hesi Pull-Up"
+   },
+   "admiral": {
+      "id": "admiral",
+      "face": {
+         "front": {
+            "name": "Admiral",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/oJer9942Das.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Admiral",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "C",
+      "team": "Spurs",
+      "archetype": "Defense",
+      "signature": "Block"
+   },
+   "bigo": {
+      "id": "bigo",
+      "face": {
+         "front": {
+            "name": "Big O",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/TKWI4941V.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Big O",
+      "type": "Player",
+      "cost": 0,
+      "power": 10,
+      "position": "PG",
+      "team": "Multi-Team",
+      "archetype": "Playmaking",
+      "signature": "Triple-Double"
+   },
+   "logo": {
+      "id": "logo",
+      "face": {
+         "front": {
+            "name": "Logo",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/EP9268eEU.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Logo",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "PG",
+      "team": "Lakers",
+      "archetype": "Clutch",
+      "signature": "Clutch"
+   },
+   "havlicek": {
+      "id": "havlicek",
+      "face": {
+         "front": {
+            "name": "Havlicek",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/D1437nWc.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Havlicek",
+      "type": "Player",
+      "cost": 0,
+      "power": 9,
+      "position": "SF",
+      "team": "Celtics",
+      "archetype": "Defense",
+      "signature": "Winning Steal"
+   },
+   "kg": {
+      "id": "kg",
+      "face": {
+         "front": {
+            "name": "KG",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/y6762o.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "KG",
+      "type": "Player",
+      "cost": 0,
+      "power": 10,
+      "position": "PF",
+      "team": "Multi-Team",
+      "archetype": "Afflict",
+      "signature": "Trash Talk"
+   },
+   "dirk": {
+      "id": "dirk",
+      "face": {
+         "front": {
+            "name": "Dirk",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/ziqO6557ew.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Dirk",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "PF",
+      "team": "Mavericks",
+      "archetype": "High Release",
+      "signature": "One-Legged Fade"
+   },
+   "joker": {
+      "id": "joker",
+      "face": {
+         "front": {
+            "name": "Joker",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/HQhz9130Sp.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Joker",
+      "type": "Player",
+      "cost": 0,
+      "power": 10,
+      "position": "C",
+      "team": "Nuggets",
+      "archetype": "Control",
+      "signature": "Somber Shuffle"
+   },
+   "drj": {
+      "id": "drj",
+      "face": {
+         "front": {
+            "name": "Dr. J",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/zzVY5956iyY.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Dr. J",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "SF",
+      "team": "Multi-Team",
+      "archetype": "Acrobatic",
+      "signature": "Acrobatic"
+   },
+   "moses": {
+      "id": "moses",
+      "face": {
+         "front": {
+            "name": "Moses",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/wgFI1615WEo.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Moses",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "C",
+      "team": "Multi-Team",
+      "archetype": "Rebound",
+      "signature": "Offensive Rebound"
+   },
+   "pumpfake": {
+      "id": "pumpfake",
+      "face": {
+         "front": {
+            "name": "Pump Fake",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/OKqK8678Q.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Pump Fake",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Offense",
+      "signature": ""
+   },
+   "doubleteam": {
+      "id": "doubleteam",
+      "face": {
+         "front": {
+            "name": "Double Team",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/WL6804STA.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Double Team",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Defense",
+      "signature": ""
+   },
+   "choketaunt": {
+      "id": "choketaunt",
+      "face": {
+         "front": {
+            "name": "Choke Taunt",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/eS3783urg.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Choke Taunt",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Defense",
+      "signature": ""
+   },
+   "secureball": {
+      "id": "secureball",
+      "face": {
+         "front": {
+            "name": "Secure Ball",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/keDw5841Bag.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Secure Ball",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Offense",
+      "signature": ""
+   },
+   "nobite": {
+      "id": "nobite",
+      "face": {
+         "front": {
+            "name": "No Bite",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/SUWQ4822gmY.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "No Bite",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Discard",
+      "signature": ""
+   },
+   "boxout": {
+      "id": "boxout",
+      "face": {
+         "front": {
+            "name": "Box Out",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/MorV3344UY.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Box Out",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Defense",
+      "signature": ""
+   },
+   "mailman": {
+      "id": "mailman",
+      "face": {
+         "front": {
+            "name": "Mailman",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/xt3783Lw.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Mailman",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "PF",
+      "team": "Jazz",
+      "archetype": "Move",
+      "signature": "Pick And Roll"
+   },
+   "stockton": {
+      "id": "stockton",
+      "face": {
+         "front": {
+            "name": "Stockton",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/MfuQ5537FNQ.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Stockton",
+      "type": "Player",
+      "cost": 0,
+      "power": 9,
+      "position": "PG",
+      "team": "Jazz",
+      "archetype": "Move",
+      "signature": "Pocket Pass"
+   },
+   "pippen": {
+      "id": "pippen",
+      "face": {
+         "front": {
+            "name": "Pippen",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/LKe6941dg.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Pippen",
+      "type": "Player",
+      "cost": 0,
+      "power": 10,
+      "position": "SF",
+      "team": "Bulls",
+      "archetype": "Offense",
+      "signature": "Robin"
+   },
+   "bakley": {
+      "id": "bakley",
+      "face": {
+         "front": {
+            "name": "Barkley",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/vX3373Tg.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Barkley",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "PF",
+      "team": "Multi-Team",
+      "archetype": "Rebound",
+      "signature": "Undersized Rebounder"
+   },
+   "wade": {
+      "id": "wade",
+      "face": {
+         "front": {
+            "name": "Wade",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/el6285IMA.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Wade",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "SG",
+      "team": "Heat",
+      "archetype": "Acrobatic",
+      "signature": "Acrobatic"
+   },
+   "kawhi": {
+      "id": "kawhi",
+      "face": {
+         "front": {
+            "name": "Kawhi",
+            "type": "Player",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/JgX2632RjU.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Kawhi",
+      "type": "Player",
+      "cost": 0,
+      "power": 11,
+      "position": "SF",
+      "team": "Multi-Team",
+      "archetype": "Defense",
+      "signature": "Lockdown"
+   },
+   "blindside": {
+      "id": "blindside",
+      "face": {
+         "front": {
+            "name": "Blind Side",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/COZ1185vLA.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Blind Side",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Afflict",
+      "signature": ""
+   },
+   "doubletech": {
+      "id": "doubletech",
+      "face": {
+         "front": {
+            "name": "Double Technical",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/Spr5898rjs.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Double Technical",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Control",
+      "signature": ""
+   },
+   "crossover": {
+      "id": "crossover",
+      "face": {
+         "front": {
+            "name": "Crossover",
+            "type": "Asset",
+            "cost": 0,
+            "image": "https://i.imghippo.com/files/XDq1835JdU.png",
+            "isHorizontal": false
+         }
+      },
+      "name": "Crossover",
+      "type": "Asset",
+      "cost": 0,
+      "power": null,
+      "position": "",
+      "team": "",
+      "archetype": "Move",
+      "signature": ""
+   }
+}
